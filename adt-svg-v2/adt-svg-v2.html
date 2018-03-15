@@ -15,41 +15,26 @@
     
                 <defs>
                     <linearGradient id="Gradient"> 
-                        <stop stop-color="#4B8FDF" offset="1">
-                            <animate 
-                                attributeType="XML" 
-                                attributeName="stop-color" 
-                                dur="2.5s" 
-                                values="#4B8FDF; #3F88D6; #317CCC; #1D71BD; #0561A9; #0460A8"
-                                repeatCount="indefinite"
-                            />
+                        <stop stop-color="#4B8FDF" offset="0">
                             <animate 
                                 id="stop1"
                                 attributeName="offset" 
                                 values="0;1"
                                 dur="2.5s"
-                                begin="0s; stop2.end"
+                                begin="stop2.end"
                                 from="1"
                                 to="0"
-                                
                             />
                         </stop>
                         <stop stop-color="#0460A8" offset="0">
-                                <animate 
-                                attributeType="XML" 
-                                attributeName="stop-color"
-                                values="#4B8FDF; #3F88D6; #317CCC; #1D71BD; #0561A9; #0460A8"
-                                repeatCount="indefinite"
-                            />
                             <animate 
                                 id="stop2"
                                 attributeName="offset" 
                                 values="0;1"
                                 dur="2.5s"
-                                begin="stop1.end"
+                                begin="0s; stop1.end"
                                 from="1"
                                 to="0"
-                                r
                             />
                         </stop>
 
