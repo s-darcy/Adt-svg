@@ -1,0 +1,58 @@
+
+/* Controls background color transition*/
+@keyframes adt-octogon  {
+    0%    {fill: #4B8FDF}
+    10%   {fill: #448BDA}
+    15%   {fill: #3F88D6}
+    20%   {fill: #3683D0}
+    25%   {fill: #317CCC}
+    30%   {fill: #2D7BC8}
+    35%   {fill: #1D71BD}
+    40%   {fill: #0C65AF}
+    45%   {fill: #0460A8}
+    55%   {fill: #0460A8}  
+    60%   {fill: #0C65AF}
+    65%   {fill: #1D71BD}
+    70%   {fill: #2D7BC8}
+    75%   {fill: #317CCC}
+    80%   {fill: #3683D0}
+    85%   {fill: #3F88D6}
+    90%   {fill: #448BDA} 
+    95%   {fill: #4B8FDF} 
+    100%  {fill: #4B8FDF}
+  }
+  
+  .adt-octogon-transitions  {
+    animation: adt-octogon 5s linear infinite;
+  }
+  /*----------------------------------*/
+
+
+  /* Controls border color transition*/
+  @keyframes letter  {
+    0%    {fill: #4B8FDF}
+    10%   {fill: #448BDA}
+    15%   {fill: #3F88D6}
+    20%   {fill: #3683D0}
+    25%   {fill: #317CCC}
+    30%   {fill: #2D7BC8}
+    35%   {fill: #1D71BD}
+    40%   {fill: #0C65AF}
+    45%   {fill: #0460A8}
+    55%   {fill: #0460A8}  
+    60%   {fill: #0C65AF}
+    65%   {fill: #1D71BD}
+    70%   {fill: #2D7BC8}
+    75%   {fill: #317CCC}
+    80%   {fill: #3683D0}
+    85%   {fill: #3F88D6}
+    90%   {fill: #448BDA} 
+    95%   {fill: #4B8FDF} 
+    100%  {fill: #4B8FDF}
+
+  }
+  
+  .letter-border  {
+    animation: adt-octogon 5s linear infinite;
+  }
+  /*----------------------------------*/

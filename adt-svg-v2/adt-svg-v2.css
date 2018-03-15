@@ -1,0 +1,63 @@
+
+
+/* body {
+  background-color: lightblue;
+}
+.stop1 {
+
+} */
+/* .svg-wrapper {
+	width: 400px;
+	height: auto;
+	background: linear-gradient(90deg, #4B8FDF,  #0561A9, #4B8FDF,  #0561A9);
+	background-size: 200% 200%;
+  animation: Gradient 5s linear infinite;
+
+} */
+
+/* .adt-octogon-transitions {
+  animation: 5s linear infinite; 
+} */
+
+/* @keyframes Gradient {
+	0% {
+		background-position: 0% 100%
+  }
+  20% {
+		background-position: 20% 100%
+  }
+  40% {
+    background-position: 40% 100%
+  }
+	60% {
+		background-position: 60% 100%
+  }
+  80% {
+		background-position: 80% 1000%
+	}
+	100% {
+		background-position: 100% 100%
+	}
+}
+
+.adt-octogon-transitions {
+  fill-opacity: 0.0;
+  fill: transparent;
+} */
+
+
+
+
+
+/* Controls background color transition*/
+/* @keyframes adt-octogon  {
+    0%    {fill: }
+    10%   {fill: #448BDA}
+    15%   {fill: #3F88D6}
+    20%   {fill: #3683D0}
+    25%   {fill: #317CCC}
+    30%   {fill: #2D7BC8}
+    35%   {fill: }
+    40%   {fill: #0C65AF,#0460A8, #0460A8,,#1D71BD,#2D7BC8,#317CCC, #3683D0, ,#448BDA, #4B8FDF, #4B8FDF}
+
+
