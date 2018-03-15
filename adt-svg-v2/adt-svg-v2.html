@@ -15,40 +15,41 @@
     
                 <defs>
                     <linearGradient id="Gradient"> 
-                        <stop id="stop1" stop-color="#317CCC" offset="1">
+                        <stop stop-color="#4B8FDF" offset="1">
                             <animate 
                                 attributeType="XML" 
                                 attributeName="stop-color" 
                                 dur="2.5s" 
+                                values="#4B8FDF; #3F88D6; #317CCC; #1D71BD; #0561A9; #0460A8"
+                                repeatCount="indefinite"
+                            />
+                            <animate 
+                                id="stop1"
+                                attributeName="offset" 
+                                values="0;1"
+                                dur="2.5s"
                                 begin="0s; stop2.end"
                                 from="1"
                                 to="0"
-                                repeatCount="indefinite"
-                                values="#4B8FDF; #3F88D6; #317CCC; #1D71BD; #0561A9; #0460A8"
-                            />
-                            <animate 
-                                attributeName="offset" 
-                                values="0;.2;.4;.6;.8;1"
-                                dur="2.5s"
-                                repeatCount="indefinite"
+                                
                             />
                         </stop>
-                        <stop id="stop2" stop-color="#317CCC" offset="0">
+                        <stop stop-color="#0460A8" offset="0">
                                 <animate 
                                 attributeType="XML" 
                                 attributeName="stop-color"
-                                begin="stop1.end"
-                                dur="2.5s" 
-                                from="1"
-                                to="0"
+                                values="#4B8FDF; #3F88D6; #317CCC; #1D71BD; #0561A9; #0460A8"
                                 repeatCount="indefinite"
-                                values="#0460A8; #0561A9;  #1D71BD;  #317CCC; #3F88D6; #4B8FDF"
                             />
                             <animate 
+                                id="stop2"
                                 attributeName="offset" 
-                                values="0;.2;.4;.6;.8;1"
+                                values="0;1"
                                 dur="2.5s"
-                                repeatCount="indefinite"
+                                begin="stop1.end"
+                                from="1"
+                                to="0"
+                                r
                             />
                         </stop>
 
