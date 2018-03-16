@@ -14,30 +14,23 @@
             <g class="adt-octogon">
     
                 <defs>
-                    <linearGradient id="Gradient"> 
-                        <stop stop-color="#4B8FDF" offset="0">
+                    <linearGradient id="Gradient" x1="-400%" y1="0%" x2="400%" y2="0%"> 
+                        
+                        <stop stop-color="#4B8FDF" offset=".1"></stop>
+                        <stop stop-color="#0460A8" offset="1.5">
                             <animate 
                                 id="stop1"
-                                attributeName="offset" 
+                                attributeName="offset"
+                                calcMode="linear"
                                 values="0;1"
-                                dur="2.5s"
-                                begin="stop2.end"
-                                from="1"
-                                to="0"
+                                dur="5s"
+                                begin="0"
+                                from="0"
+                                to="1"
+                                repeatCount="indefinite"
                             />
                         </stop>
-                        <stop stop-color="#0460A8" offset="1">
-                            <animate 
-                                id="stop2"
-                                attributeName="offset" 
-                                values="0;1"
-                                dur="2.5s"
-                                begin="0s; stop1.end"
-                                from="1"
-                                to="0"
-                            />
-                        </stop>
-
+                        <stop stop-color="#4B8FDF" offset="2"></stop>
                     </linearGradient>
                 </defs>
 
