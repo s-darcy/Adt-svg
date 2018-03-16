@@ -14,7 +14,7 @@
             <g class="adt-octogon">
     
                 <defs>
-                    <linearGradient id="Gradient" x1="-12000%" y1="0%" x2="12000%" y2="0%"> 
+                    <linearGradient id="Gradient" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
                         
                         <stop stop-color="#0460A8" offset="0"></stop>
                         <stop stop-color="#4B8FDF" offset="1">
@@ -24,13 +24,14 @@
                                 calcMode="linear"
                                 values="0;1"
                                 dur="2.5s"
-                                begin="0"
-                                from="-.5"
-                                to="1.5"
+                                begin="-1"
+                                from="-1"
+                                to="2"
                                 repeatCount="indefinite"
                             />
                         </stop>
-                        <stop stop-color="#0460A8" offset=".75"></stop>
+                        <stop stop-color="#0460A8" offset="1"></stop>
+                        <stop stop-color="#4B8FDF" offset="1"></stop>
                     </linearGradient>
                 </defs>
 
@@ -44,9 +45,30 @@
             <!-- "T" in ADT -->
             <path fill="#fff" d="M205.46 200.31v-76.09h-28.63V99.95h82.18v24.27h-28.88v76.09h-24.67z"/>
         
-            <g class="letter">
+            <g>
+                <defs>
+                    <linearGradient id="Gradient2" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
+                        
+                        <stop stop-color="#0460A8" offset="0"></stop>
+                        <stop stop-color="#4B8FDF" offset="1">
+                            <animate 
+                                id="stop2"
+                                attributeName="offset"
+                                calcMode="linear"
+                                values="0;1"
+                                dur="2.5s"
+                                begin="-1"
+                                from="-1"
+                                to="2"
+                                repeatCount="indefinite"
+                            />
+                        </stop>
+                        <stop stop-color="#0460A8" offset="1"></stop>
+                        <stop stop-color="#4B8FDF" offset="1"></stop>
+                    </linearGradient>
+                </defs>
                 <!-- "T" border -->
-                <path class="letter-border" d="M257 101.43v20.77h-28.88v76.09h-21.17v-76.08h-28.64v-20.78H257m3.5-3.5h-85.69v27.77h28.63v76.09h28.18v-76.08h28.88V97.93z" fill="#0061aa"/>
+                <path fill="url(#Gradient2)"  d="M257 101.43v20.77h-28.88v76.09h-21.17v-76.08h-28.64v-20.78H257m3.5-3.5h-85.69v27.77h28.63v76.09h28.18v-76.08h28.88V97.93z" />
             </g>
     
             <!-- "A" in ADT -->
@@ -54,30 +76,29 @@
         
             <g class="letter"></g>
 
-                <defs>
-                    <linearGradient id="a-border"> 
-                        <stop class="stop2" stop-color="#4B8FDF" offset="0">
-                            <animate 
-                                attributeType="XML" 
-                                attributeName="offset" 
-                                from="-200" 
-                                to="800" 
-                                dur="5s" 
-                                repeatCount="indefinite"
-                                values="0;1;0"
-                            />
-                        </stop> 
-                        <stop class="stop2" stop-color="#0561A9" offset="1">
-                        </stop>
-                        <stop class="stop3" stop-color="#0561A9" offset="1">
-                            </stop>  
-                        <stop class="stop4" stop-color="#4B8FDF" offset="0">
-                        </stop> 
-
-                    </linearGradient>
+            <defs>
+                <linearGradient id="Gradient3" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
+                    
+                    <stop stop-color="#0460A8" offset="0"></stop>
+                    <stop stop-color="#4B8FDF" offset="1">
+                        <animate 
+                            id="stop3"
+                            attributeName="offset"
+                            calcMode="linear"
+                            values="0;1"
+                            dur="2.5s"
+                            begin="-1"
+                            from="-1"
+                            to="2"
+                            repeatCount="indefinite"
+                        />
+                    </stop>
+                    <stop stop-color="#0460A8" offset="1"></stop>
+                    <stop stop-color="#4B8FDF" offset="1"></stop>
+                </linearGradient>
                 </defs>
                 <!--"A" border -->
-                <path class="letter-border" fill="url(#a-border)" d="M92 101.39l49.38 96.9h-22.9l-5-9.93H70.52l-5.16 9.93H42.45L92 101.39m-11.29 66.85h22.37L92 146.4l-11.29 21.84M92 93.69l-3.15 6.11-49.51 96.9-2.6 5.09h30.74l1-1.89 4.18-8h38.62l4.06 8 1 1.92h30.76l-2.59-5.09L95.08 99.8 92 93.69zm-5.52 71.05l5.49-10.66 5.43 10.66z" fill="#0061aa"/>
+                <path  fill="url(#Gradient3)" d="M92 101.39l49.38 96.9h-22.9l-5-9.93H70.52l-5.16 9.93H42.45L92 101.39m-11.29 66.85h22.37L92 146.4l-11.29 21.84M92 93.69l-3.15 6.11-49.51 96.9-2.6 5.09h30.74l1-1.89 4.18-8h38.62l4.06 8 1 1.92h30.76l-2.59-5.09L95.08 99.8 92 93.69zm-5.52 71.05l5.49-10.66 5.43 10.66z" />
             </g>
         
         </svg>
