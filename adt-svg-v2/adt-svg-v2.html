@@ -2,110 +2,43 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ADT Animated SVG</title>
-    <link rel="stylesheet" type="text/css" href="adt-svg-v2.css">
+    <title>ADT Animated SVG Logo</title>
   </head>
   <body>
-
-    <!-- <div class="svg-wrapper"> -->
-
-        <svg class="adt-logo" xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 600 600">
-            
-            <g class="adt-octogon">
-    
-                <defs>
-                    <linearGradient id="Gradient" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
-                        
-                        <stop stop-color="#0460A8" offset="0"></stop>
-                        <stop stop-color="#4B8FDF" offset="1">
-                            <animate 
-                                id="stop1"
-                                attributeName="offset"
-                                calcMode="linear"
-                                values="0;1"
-                                dur="2.5s"
-                                begin="-1"
-                                from="-1"
-                                to="2"
-                                repeatCount="indefinite"
-                            />
-                        </stop>
-                        <stop stop-color="#0460A8" offset="1"></stop>
-                        <stop stop-color="#4B8FDF" offset="1"></stop>
-                    </linearGradient>
-                </defs>
-
-                <path class="adt-octogon-transitions" fill="url(#Gradient)" d="M87.89 0L0 87.83v124.32l87.89  87.83h124.2l87.89-87.83V87.83L212.09 0H87.89z"/>
-                            
-            </g><!--/.adt-octogon -->
-            
-            <!-- "D" in ADT -->
-            <path d="M153.61 198.29h-32.93v-97.13h32.92c27.87 0 48.77 20.63 48.77 48.5s-20.9 48.63-48.76 48.63zm0-76h-11.75V177h11.75c16.12 0 27.6-11.07 27.6-27.32s-11.48-27.34-27.6-27.34z" fill="#fff"/>
-            
-            <!-- "T" in ADT -->
-            <path fill="#fff" d="M205.46 200.31v-76.09h-28.63V99.95h82.18v24.27h-28.88v76.09h-24.67z"/>
-        
-            <g>
-                <defs>
-                    <linearGradient id="Gradient2" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
-                        
-                        <stop stop-color="#0460A8" offset="0"></stop>
-                        <stop stop-color="#4B8FDF" offset="1">
-                            <animate 
-                                id="stop2"
-                                attributeName="offset"
-                                calcMode="linear"
-                                values="0;1"
-                                dur="2.5s"
-                                begin="-1"
-                                from="-1"
-                                to="2"
-                                repeatCount="indefinite"
-                            />
-                        </stop>
-                        <stop stop-color="#0460A8" offset="1"></stop>
-                        <stop stop-color="#4B8FDF" offset="1"></stop>
-                    </linearGradient>
-                </defs>
-                <!-- "T" border -->
-                <path fill="url(#Gradient2)"  d="M257 101.43v20.77h-28.88v76.09h-21.17v-76.08h-28.64v-20.78H257m3.5-3.5h-85.69v27.77h28.63v76.09h28.18v-76.08h28.88V97.93z" />
-            </g>
-    
-            <!-- "A" in ADT -->
-            <path d="M117.37 200l-5-9.93H71.58L66.42 200H39.6L92 97.54 144.2 200zm-17.14-33.55L92 150.24l-8.37 16.25z" fill="#fff"/>
-        
-            <g class="letter"></g>
-
-            <defs>
-                <linearGradient id="Gradient3" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
-                    
-                    <stop stop-color="#0460A8" offset="0"></stop>
-                    <stop stop-color="#4B8FDF" offset="1">
-                        <animate 
-                            id="stop3"
-                            attributeName="offset"
-                            calcMode="linear"
-                            values="0;1"
-                            dur="2.5s"
-                            begin="-1"
-                            from="-1"
-                            to="2"
-                            repeatCount="indefinite"
-                        />
-                    </stop>
-                    <stop stop-color="#0460A8" offset="1"></stop>
-                    <stop stop-color="#4B8FDF" offset="1"></stop>
-                </linearGradient>
-                </defs>
-                <!--"A" border -->
-                <path  fill="url(#Gradient3)" d="M92 101.39l49.38 96.9h-22.9l-5-9.93H70.52l-5.16 9.93H42.45L92 101.39m-11.29 66.85h22.37L92 146.4l-11.29 21.84M92 93.69l-3.15 6.11-49.51 96.9-2.6 5.09h30.74l1-1.89 4.18-8h38.62l4.06 8 1 1.92h30.76l-2.59-5.09L95.08 99.8 92 93.69zm-5.52 71.05l5.49-10.66 5.43 10.66z" />
-            </g>
-        
-        </svg>
-        
-    <!-- </div> -->
-
-  </body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 600 600">
+        <defs>
+            <linearGradient id="gradient" x1="-1800%" y1="0%" x2="1800%" y2="0%"> 
+                <stop stop-color="#0460ab" offset="0"></stop>
+                <stop stop-color="#498dde" offset="1">
+                    <animate 
+                        id="stop1"
+                        attributeName="offset"
+                        calcMode="linear"
+                        values="0;1"
+                        dur="2s"
+                        begin="-1"
+                        from="-1"
+                        to="2"
+                        repeatCount="indefinite"
+                    />
+                </stop>
+                <stop stop-color="#0460ab" offset="1"></stop>
+                <stop stop-color="#498dde" offset="1"></stop>
+            </linearGradient><!-- /#gradient -->
+        </defs>
+        <path fill="url(#gradient)" d="M87.89 0L0 87.83v124.32l87.89  87.83h124.2l87.89-87.83V87.83L212.09 0H87.89z"/>
+        <!-- "D" in ADT -->
+        <path fill="#fff" d="M153.61 198.29h-32.93v-97.13h32.92c27.87 0 48.77 20.63 48.77 48.5s-20.9 48.63-48.76 48.63zm0-76h-11.75V177h11.75c16.12 0 27.6-11.07 27.6-27.32s-11.48-27.34-27.6-27.34z"/>
+        <!-- "T" in ADT -->
+        <path fill="#fff" d="M205.46 200.31v-76.09h-28.63V99.95h82.18v24.27h-28.88v76.09h-24.67z"/>
+        <!-- "T" border -->
+        <path fill="url(#gradient)" d="M257 101.43v20.77h-28.88v76.09h-21.17v-76.08h-28.64v-20.78H257m3.5-3.5h-85.69v27.77h28.63v76.09h28.18v-76.08h28.88V97.93z"/>
+        <!-- "A" in ADT -->
+        <path fill="#fff" d="M117.37 200l-5-9.93H71.58L66.42 200H39.6L92 97.54 144.2 200zm-17.14-33.55L92 150.24l-8.37 16.25z"/>
+        <!--"A" border -->
+        <path fill="url(#gradient)" d="M92 101.39l49.38 96.9h-22.9l-5-9.93H70.52l-5.16 9.93H42.45L92 101.39m-11.29 66.85h22.37L92 146.4l-11.29 21.84M92 93.69l-3.15 6.11-49.51 96.9-2.6 5.09h30.74l1-1.89 4.18-8h38.62l4.06 8 1 1.92h30.76l-2.59-5.09L95.08 99.8 92 93.69zm-5.52 71.05l5.49-10.66 5.43 10.66z"/>
+    </svg>
+</body>
 </html>
 
 
